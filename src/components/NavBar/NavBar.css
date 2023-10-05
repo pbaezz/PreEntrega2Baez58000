@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: black;
+}
+
+.navbar h3{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+
+
