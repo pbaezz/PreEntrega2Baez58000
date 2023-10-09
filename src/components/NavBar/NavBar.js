@@ -6,8 +6,8 @@ import { NavLink, Link } from 'react-router-dom';
 const NavBar = () =>{
     return (
 
-        <nav className="navbar" role="navigation" aria-label="main navigation">
-            <div className="navbar-brand">
+        <nav className="navbar-mio" role="navigation" aria-label="main navigation">
+            <div className="navbar-brand-mio">
                 <Link to="/">
                     <h3>LEVEL STORE</h3>
                 </Link>
@@ -25,7 +25,7 @@ const NavBar = () =>{
                         </div>
                     </div>
                 </div >
-                <CartWidget/>
+                    <CartWidget/>
             </div>
         </nav>
     )
